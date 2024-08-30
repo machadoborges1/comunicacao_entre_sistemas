@@ -1,0 +1,29 @@
+{
+    "collection": {
+      "version": "1.0",
+      "href": "/books",
+      "items": [
+        {
+          "href": "/books/123",
+          "data": [
+            { "name": "id", "value": "123" },
+            { "name": "title", "value": "Go Programming" },
+            { "name": "author", "value": "John Doe" }
+          ],
+          "links": [
+            { "rel": "author", "href": "/authors/456" }
+          ]
+        }
+      ],
+      "links": [
+        { "rel": "next", "href": "/books?page=2" }
+      ],
+      "template": {
+        "data": [
+          { "name": "title", "value": "" },
+          { "name": "author", "value": "" }
+        ]
+      }
+    }
+  }
+  

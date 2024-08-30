@@ -1,0 +1,11 @@
+{
+    "_links": {
+      "self": { "href": "/books/123" },
+      "author": { "href": "/authors/456" }
+    },
+    "id": "123",
+    "title": "Go Programming",
+    "author": "John Doe",
+    "year": 2023
+  }
+  

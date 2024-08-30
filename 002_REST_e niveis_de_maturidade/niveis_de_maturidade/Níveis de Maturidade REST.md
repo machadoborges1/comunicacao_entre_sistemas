@@ -46,4 +46,3 @@ Os Níveis de Maturidade REST de Richardson mostram a evolução de uma API simp
 4. **Nível 3 (HATEOAS)**: Fornece links de navegação para os clientes, promovendo a descoberta dinâmica de operações.
 
 Cada nível tem seu propósito e pode ser adequado dependendo do contexto e das necessidades do sistema que está sendo desenvolvido.
-

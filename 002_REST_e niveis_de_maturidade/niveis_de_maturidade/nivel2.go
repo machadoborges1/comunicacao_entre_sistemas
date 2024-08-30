@@ -1,3 +1,5 @@
+//Verbos HTTP: A API usa métodos HTTP apropriados para cada operação em recursos (GET para leitura, POST para criação).
+
 package main
 
 import (

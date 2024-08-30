@@ -1,0 +1,35 @@
+{
+    "class": ["book"],
+    "properties": {
+      "id": "123",
+      "title": "Go Programming",
+      "author": "John Doe"
+    },
+    "entities": [
+      {
+        "class": ["author"],
+        "rel": ["author"],
+        "href": "/authors/456",
+        "properties": {
+          "name": "John Doe"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "name": "update-book",
+        "title": "Update Book",
+        "method": "PUT",
+        "href": "/books/123",
+        "type": "application/json",
+        "fields": [
+          { "name": "title", "type": "text" },
+          { "name": "author", "type": "text" }
+        ]
+      }
+    ],
+    "links": [
+      { "rel": ["self"], "href": "/books/123" }
+    ]
+  }
+  

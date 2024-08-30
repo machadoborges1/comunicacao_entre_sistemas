@@ -1,3 +1,5 @@
+//HATEOAS: A API inclui links em suas respostas para permitir que o cliente descubra as operações possíveis de forma dinâmica, seguindo os princípios de HATEOAS.
+
 package main
 
 import (
