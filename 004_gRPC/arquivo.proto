@@ -1,0 +1,17 @@
+//Usar o comando protoc para gerar o código Go:
+//protoc --go_out=. --go-grpc_out=. chat.proto
+
+//Arquivo .proto: Define o serviço ChatService com um método de streaming bidirecional Chat, onde tanto o cliente quanto o servidor podem enviar e receber mensagens simultaneamente.
+
+syntax = "proto3";
+
+package example;
+
+service ChatService {
+  rpc Chat(stream ChatMessage) returns (stream ChatMessage);
+}
+
+message ChatMessage {
+  string user = 1;
+  string message = 2;
+}

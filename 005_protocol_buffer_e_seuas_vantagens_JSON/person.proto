@@ -1,0 +1,10 @@
+//name, id, email: Definem os campos da mensagem Person, cada um com um tipo específico (string, int32) e um número de campo único.
+//Protobuf Schema: Este arquivo .proto define a estrutura de dados que pode ser serializada/deserializada entre cliente e servidor, garantindo a consistência dos dados.
+
+syntax = "proto3";
+
+message Person {
+  string name = 1;
+  int32 id = 2;
+  string email = 3;
+}
