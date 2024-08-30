@@ -1,0 +1,11 @@
+{
+    "id": "123",
+    "title": "Go Programming",
+    "author": "John Doe",
+    "_links": {
+      "self": { "href": "/books/123" },
+      "update": { "href": "/books/123", "method": "PUT" },
+      "delete": { "href": "/books/123", "method": "DELETE" }
+    }
+  }
+  
